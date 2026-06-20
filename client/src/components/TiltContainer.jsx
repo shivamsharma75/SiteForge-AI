@@ -52,7 +52,7 @@ export function TiltContainer({ children, className = '', maxRotation = 8, enabl
           }}
         />
       )}
-      <div style={{ transform: 'translateZ(12px)', transformStyle: 'preserve-3d' }} className="h-full">
+      <div style={{ transform: 'translateZ(12px)', transformStyle: 'preserve-3d' }} className="relative z-20 h-full">
         {children}
       </div>
     </motion.div>
