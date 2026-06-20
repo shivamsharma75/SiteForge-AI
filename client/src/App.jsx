@@ -9,7 +9,7 @@ import WebsiteEditor from './pages/Editor'
 import LiveSite from './pages/LiveSite'
 import Pricing from './pages/Pricing'
 
-export const serverUrl = import.meta.env.VITE_SERVER_URL || "http://localhost:8000"
+export const serverUrl = "https://siteforge-ai-f3dv.onrender.com"
 
 function App() {
   const { authLoading } = useGetCurrentUser()
